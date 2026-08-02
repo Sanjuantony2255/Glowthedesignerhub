@@ -10,8 +10,8 @@ const productsData = {
     'nso-1370': { 'title': 'IVORY EMBROIDERY CO-ORD', 'price': '₹1,370', 'images': ['Not so Onam/1370/3CEEEB75-C1F4-4CA8-9F16-D163F0472864.PNG', 'Not so Onam/1370/A149D047-1B03-40B9-B1DE-02A3C8A5AC84 (1).PNG'] },
     'nso-1580': { 'title': 'BEIGE MIRROR WORK SET', 'price': '₹1,580', 'images': ['Not so Onam/1580/89D7EABC-70BB-4327-A2D4-3CCF4E947EBB.png', 'Not so Onam/1580/IMG_4294.jpeg'] },
     'nso-2980': { 'title': 'Premium! Ivory Mirror Work 3-Piece Suit', 'price': '₹2,980', 'images': ['Not so Onam/2980/Main.jpeg', 'Not so Onam/2980/Neck 1.jpeg', 'Not so Onam/2980/Neck 2.jpeg'], 'imageLabels': ['Main Design', 'Neck Option 1', 'Neck Option 2'] },
-    'nso-1371': { 'title': 'CREAM CYCLE CO-ORD', 'price': '₹1,370', 'images': ['Not so Onam/1371/Not so Onam/1371/F505187D-C0D1-435E-9C44-DB76DAB77188.png', 'Not so Onam/1371/IMG_4199.jpeg'] },
-    'nso-1680': { 'title': 'IVORY HANDWORK KURTA', 'price': '₹1,680', 'images': ['Not so Onam/1680/Not so Onam/1680/Not so Onam/1680/7062BDBD-C897-4083-8F18-3A9E20BB24FA.png', 'Not so Onam/1680/9A5436D7-0E89-4036-921E-D7E054BA5B02.png'] },
+    'nso-1371': { 'title': 'CREAM CYCLE CO-ORD', 'price': '₹1,370', 'images': ['Not so Onam/1371/Not so Onam/1371/Not so Onam/1371/F505187D-C0D1-435E-9C44-DB76DAB77188.png', 'Not so Onam/1371/IMG_4199.jpeg'] },
+    'nso-1680': { 'title': 'IVORY HANDWORK KURTA', 'price': '₹1,680', 'images': ['Not so Onam/1680/Not so Onam/1680/Not so Onam/1680/Not so Onam/1680/7062BDBD-C897-4083-8F18-3A9E20BB24FA.png', 'Not so Onam/1680/9A5436D7-0E89-4036-921E-D7E054BA5B02.png'] },
 
 
     'oc-1490': { 'title': 'Ivory Cotton-Linen Co-ord Set', 'price': '₹1,490', 'images': ['Onam Collection/4B34835C-FE8A-4BD4-9E11-66311D1A1B41.png', 'Onam Collection/9EC5FE62-D942-414D-961B-080D34462832.png'] },
