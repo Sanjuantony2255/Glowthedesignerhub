@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow The Designer Hub - Premium Festive Wear</title>
+    <meta name="description"
+        content="Book your festive consultation with Glow The Designer Hub. Exclusive, custom-crafted wear for Onam.">
+    <!-- Favicon -->
+    <link rel="icon" type="image/jfif" href="logo/images (16).jfif">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Floating WhatsApp CTA -->
+    <a href="https://wa.me/919020971971?text=Hi%20Glow%20The%20Designer%20Hub!%20I%20would%20like%20to%20book%20a%20consultation%20for%20an%20Onam%20order."
+        class="floating-wa-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat with Designer on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Header / Nav -->
+    <header class="navbar fade-in-up">
+        <a href="#" class="logo-link">
+            <img src="logo/images (16).jfif" alt="Glow The Designer Hub Logo" class="logo-img">
+        </a>
+        <a href="#enquiry" class="btn btn-outline">Book Appointment</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg" style="background-image: url('Assets/hero_onam.png?v=2');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-in-up">
+            <span class="eyebrow">Exclusive Festive Collection</span>
+            <h1>Glow Onam 2026.</h1>
+            <p>Get ready for the festive season with our exclusive Onam collections. Tailored to absolute perfection.
+                Chat directly with our designer.</p>
+            <div class="hero-actions">
+                <a href="https://wa.me/919020971971?text=Hi%20Glow%20The%20Designer%20Hub!%20I%20saw%20your%20website%20and%20want%20to%20chat%20about%20Onam%20orders."
+                    class="btn btn-primary" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> Chat with Designer
+                </a>
+                <a href="#portfolio" class="btn btn-secondary">View Collection</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section-padding">
+        <div class="container text-center reveal">
+            <h2 class="section-title">Our Collections</h2>
+            <p class="section-subtitle">A glimpse into our meticulously crafted festive wear. Intricate details, premium
+                fabrics, flawless fit.</p>
+
+
+
+            <h3 class="series-title" style="margin-top: 60px;">Touch me not series.</h3>
+            <div class="portfolio-grid" id="grid-tmn"></div>
+
+            <h3 class="series-title" style="margin-top: 60px;">Not so Onam series</h3>
+            <div class="portfolio-grid" id="grid-nso"></div>
+
+            <h3 class="series-title" style="margin-top: 60px;">Onam Collection</h3>
+            <div class="portfolio-grid" id="grid-oc"></div>
+
+            <a href="https://www.instagram.com/glow_the_designer_hub_?igsh=bmFvcnN1NWlzMWZp" class="ig-link"
+                target="_blank" style="margin-top: 40px; display: inline-block;">
+                <i class="fa-brands fa-instagram"></i> Follow us @glow_the_designer_hub_
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Enquiry Form Section -->
+    <section id="enquiry" class="enquiry section-padding">
+        <div class="container reveal">
+            <div class="enquiry-card">
+                <div class="enquiry-text">
+                    <h2>Start Your Journey</h2>
+                    <p>Fill out the form below to help us understand your vision. We will reach out to schedule your
+                        personalized consultation.</p>
+                </div>
+                <form class="enquiry-form" id="booking-form" onsubmit="return submitToWhatsApp(event);">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required placeholder="e.g. Aditi Sharma">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Request Consultation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Slideshow Section -->
+    <section class="slideshow-section section-padding bg-light">
+        <div class="container text-center reveal">
+            <h2 class="section-title">Featured Products</h2>
+            <p class="section-subtitle">Explore some of our most loved styles.</p>
+            <div class="marquee-container">
+                <div class="marquee-track">
+                    <!-- Set 1 -->
+                    <a href="product.html?id=tmn-12500" class="marquee-item"><img src="SildeShow/0C9CFB83-6A4A-4434-B385-C9DDE98DF2A5.png" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-9400" class="marquee-item"><img src="SildeShow/2731969B-26F4-452B-B2F1-C452D9A91752.png" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-12500" class="marquee-item"><img src="SildeShow/8F6723E8-863D-41EF-A5D9-B8A0E566A4B6.png" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-9400" class="marquee-item"><img src="SildeShow/8F7B3097-EE6C-4A0F-A97E-7AAE232E5062.png" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-1" class="marquee-item"><img src="SildeShow/IMG_4160.jpeg" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-1" class="marquee-item"><img src="SildeShow/IMG_4164.jpeg" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-1" class="marquee-item"><img src="SildeShow/IMG_4165.jpeg" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-1" class="marquee-item"><img src="SildeShow/IMG_4167.jpeg" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-1" class="marquee-item"><img src="SildeShow/IMG_4169.jpeg" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-1" class="marquee-item"><img src="SildeShow/IMG_4170.jpeg" alt="Featured Product"></a>
+                    <!-- Set 2 (Duplicate for infinite marquee) -->
+                    <a href="product.html?id=tmn-12500" class="marquee-item"><img src="SildeShow/0C9CFB83-6A4A-4434-B385-C9DDE98DF2A5.png" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-9400" class="marquee-item"><img src="SildeShow/2731969B-26F4-452B-B2F1-C452D9A91752.png" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-12500" class="marquee-item"><img src="SildeShow/8F6723E8-863D-41EF-A5D9-B8A0E566A4B6.png" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-9400" class="marquee-item"><img src="SildeShow/8F7B3097-EE6C-4A0F-A97E-7AAE232E5062.png" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-1" class="marquee-item"><img src="SildeShow/IMG_4160.jpeg" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-1" class="marquee-item"><img src="SildeShow/IMG_4164.jpeg" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-1" class="marquee-item"><img src="SildeShow/IMG_4165.jpeg" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-1" class="marquee-item"><img src="SildeShow/IMG_4167.jpeg" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-1" class="marquee-item"><img src="SildeShow/IMG_4169.jpeg" alt="Featured Product"></a>
+                    <a href="product.html?id=tmn-1" class="marquee-item"><img src="SildeShow/IMG_4170.jpeg" alt="Featured Product"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="footer-logo">
+                <img src="logo/images (16).jfif" alt="Glow The Designer Hub" class="footer-img">
+            </div>
+            <p>Premium Festive Wear | Tailored to Perfection</p>
+            <div class="footer-links">
+                <a href="https://www.instagram.com/glow_the_designer_hub_?igsh=bmFvcnN1NWlzMWZp" target="_blank"
+                    aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/919020971971" target="_blank" aria-label="WhatsApp"><i
+                        class="fa-brands fa-whatsapp"></i></a>
+                <a href="mailto:dywbyglow@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="copyright">© 2026 Glow The Designer Hub. All rights reserved.</p>
+            <p class="credit" style="margin-top: 10px; font-size: 0.9rem; color: #a0a0a0;">
+                Designed and Created By <a href="https://sanjuantony2255.github.io/Portfolio-Sanju-Antony/"
+                    target="_blank" style="text-decoration: none; font-weight: bold;"><span
+                        style="color: #ffffff;">Sanju</span> <span
+                        style="color: var(--secondary-color);">Antony</span></a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
