@@ -1,7 +1,7 @@
 const productsData = {
 
 
-    'tmn-12500': { 'title': 'TOUCHMENOT ONAM Dhavani', 'price': '₹13,500', 'images': ['Touch me not series/12500/0C9CFB83-6A4A-4434-B385-C9DDE98DF2A5.png', 'Touch me not series/12500/8F6723E8-863D-41EF-A5D9-B8A0E566A4B6.png'] },
+    'tmn-12500': { 'title': 'TOUCHMENOT ONAM Dhavani', 'price': '₹13,800', 'images': ['Touch me not series/12500/0C9CFB83-6A4A-4434-B385-C9DDE98DF2A5.png', 'Touch me not series/12500/8F6723E8-863D-41EF-A5D9-B8A0E566A4B6.png'] },
     'tmn-9400': { 'title': 'TOUCHMENOT ONAM SAREE', 'price': '₹9,400', 'images': ['Touch me not series/9400/8F7B3097-EE6C-4A0F-A97E-7AAE232E5062.png', 'Touch me not series/9400/2731969B-26F4-452B-B2F1-C452D9A91752.png'] },
     'tmn-1': { 'title': 'Touch me not Look Exclusive Collection', 'price': '₹5,000', 'images': ['Touch me not series/IMG_4169.jpeg', 'Touch me not series/IMG_4164.jpeg', 'Touch me not series/IMG_4160.jpeg', 'Touch me not series/IMG_4167.jpeg', 'Touch me not series/IMG_4165.jpeg', 'Touch me not series/IMG_4170.jpeg'] },
 
